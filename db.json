@@ -1,14 +1,156 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "goods": [
+    {
+      "id": 1,
+      "name": "lemon",
+      "weight": 0.7,
+      "count": 20,
+      "price": 14,
+      "imgUrl": "https://photoshop-kopona.com/uploads/posts/2019-03/1553423297_lemon-clipart-1.jpg",
+      "description": "This is lemon"
+    },
+    {
+      "id": 2,
+      "name": "apple",
+      "weight": 0.3,
+      "count": 40,
+      "price": 11,
+      "imgUrl": "http://pngimg.com/uploads/apple/apple_PNG12490.png",
+      "description": "This is apple"
+    },
+    {
+      "id": 3,
+      "name": "orange",
+      "weight": 0.5,
+      "count": 36,
+      "price": 14,
+      "imgUrl": "http://pngimg.com/uploads/orange/orange_PNG785.png",
+      "description": "This is orange"
+    },
+    {
+      "id": 4,
+      "name": "avocado",
+      "weight": 0.5,
+      "count": 8,
+      "price": 90,
+      "imgUrl": "http://pngimg.com/uploads/avocado/avocado_PNG15483.png",
+      "description": "This is avocado"
+    },
+    {
+      "id": 5,
+      "name": "grape",
+      "weight": 0.3,
+      "count": 11,
+      "price": 24,
+      "imgUrl": "http://pngimg.com/uploads/grape/grape_PNG517.png",
+      "description": "This is grape"
+    },
+    {
+      "id": 6,
+      "name": "melon",
+      "weight": 5,
+      "count": 9,
+      "price": 140,
+      "imgUrl": "http://pngimg.com/uploads/melon/melon_PNG14356.png",
+      "description": "This is melon"
+    },
+    {
+      "id": 7,
+      "name": "cherry",
+      "weight": 0.1,
+      "count": 60,
+      "price": 45,
+      "imgUrl": "http://pngimg.com/uploads/cherry/cherry_PNG3077.png",
+      "description": "This is cherry"
+    },
+    {
+      "id": 8,
+      "name": "banana",
+      "weight": 0.7,
+      "count": 20,
+      "price": 30,
+      "imgUrl": "http://pngimg.com/uploads/banana/banana_PNG814.png",
+      "description": "This is banana"
+    },
+    {
+      "id": 9,
+      "name": "peach",
+      "weight": 0.4,
+      "count": 40,
+      "price": 34,
+      "imgUrl": "http://pngimg.com/uploads/peach/peach_PNG4837.png",
+      "description": "This is peach"
+    },
+    {
+      "id": 10,
+      "name": "mango",
+      "weight": 0.5,
+      "count": 9,
+      "price": 120,
+      "imgUrl": "http://pngimg.com/uploads/mango/mango_PNG9165.png",
+      "description": "This is mango"
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    {
+      "id": 1,
+      "productId": 1,
+      "userName": "man",
+      "body": "Good fruit!"
+    },
+    {
+      "id": 2,
+      "productId": 2,
+      "userName": "man",
+      "body": "Good fruit!"
+    },
+    {
+      "id": 3,
+      "productId": 3,
+      "userName": "man",
+      "body": "Good fruit!"
+    },
+    {
+      "id": 4,
+      "productId": 4,
+      "userName": "man",
+      "body": "Good fruit!"
+    },
+    {
+      "id": 5,
+      "productId": 5,
+      "userName": "man",
+      "body": "Good fruit!"
+    },
+    {
+      "id": 6,
+      "productId": 6,
+      "userName": "man",
+      "body": "Good fruit!"
+    },
+    {
+      "id": 7,
+      "productId": 7,
+      "userName": "man",
+      "body": "Good fruit!"
+    },
+    {
+      "id": 8,
+      "productId": 8,
+      "userName": "man",
+      "body": "Good fruit!"
+    },
+    {
+      "id": 9,
+      "productId": 9,
+      "userName": "man",
+      "body": "Good fruit!"
+    },
+    {
+      "id": 10,
+      "productId": 10,
+      "userName": "man",
+      "body": "Good fruit!"
+    }
+  ]
 }
